@@ -1,0 +1,58 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "json",
+  "dataset_size": 67599216,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/khalidalt/HuffPost@main/News_Category_Dataset_v2.json": {
+      "num_bytes": 83917554,
+      "checksum": null
+    }
+  },
+  "download_size": 83917554,
+  "features": {
+    "category": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "headline": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "authors": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "link": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "short_description": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "date": {
+      "dtype": "timestamp[s]",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 151516770,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 67599216,
+      "num_examples": 200853,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
